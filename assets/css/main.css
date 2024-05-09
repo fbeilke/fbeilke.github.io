@@ -1867,6 +1867,7 @@ input, select, textarea {
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
 		position: relative;
 		background-repeat: repeat-x, no-repeat, repeat;
+		background-color: #330249;
 		background-size: 100% 100%, 100% 15em, auto auto;
 		background-position: top left, top center, top left;
 		padding: 7em 0 7em 0;
@@ -2428,3 +2429,16 @@ input, select, textarea {
 			}
 
 	}
+
+
+#picture-of-me {
+	height: 270px;
+	width: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.project-image {
+	height: 150px;
+	width: 150px;
+}
